@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // variabel untuk memanggil file untuk ditampilkan di ViewController
+    var model = Model()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        model.getVideos()
     }
 
 
